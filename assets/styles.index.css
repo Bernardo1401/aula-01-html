@@ -14,7 +14,7 @@
 
   body {
     font-family: "Ubuntu Mono", sans-serif;
-    color: #0db8c7;
+    color: #f1f1f1;
     padding: 10px;
   }
 
@@ -49,4 +49,24 @@ aside {
     border-radius: 6px;
     height: 100%;
     width: 25%;
+}
+
+footer {
+    background-color: rgb(74, 72, 72);
+    border-radius: 6px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #f1f1f1;
+    font-size: 1.2rem;
+}
+
+footer a {
+    color: #f1f1f1;
+    font-weight: 500;
 }
