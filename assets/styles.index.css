@@ -19,7 +19,7 @@
   }
 
   header {
-    background-color: #696969;
+    background-color: rgb(74, 72, 72);
     border-radius: 6px;
     height: 150px;
     display: flex;
@@ -27,3 +27,26 @@
     justify-content: center;
     align-items: center;
   }
+
+#principal {
+ 
+    border-radius: 6px;
+    height: 800px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    background-color: #a40000;
+    border-radius: 6px;
+    height: 100%;
+    width: 73%;
+}
+aside {
+    background-color: #000000;
+    border-radius: 6px;
+    height: 100%;
+    width: 25%;
+}
